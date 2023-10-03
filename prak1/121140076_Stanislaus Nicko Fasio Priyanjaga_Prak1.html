@@ -1,0 +1,122 @@
+<!--Stanislaus Nicko Fasio Priyanjaga-->
+<!--121140076-->
+<!--RB-->
+
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <title>Praktikum Pemweb Nicko 1</title> <!--judul dokumen-->
+    <style>
+        /*untuk mengatur letak gambar*/
+        .gambar {
+            display: flex; /*menggunakan tampilan flexbox*/
+            justify-content: space-between; /*mengatur jarak atau ruang antar gambar*/
+        }
+    </style>
+</head>
+
+<body> <!--menampung isi utama dokumen-->
+    <div class="gambar">
+        <img src="itera.png" alt="Logo ITERA" widht="200" height="200"> <!--media berupa gambar-->
+        <img src="jjj.jpg" alt="Gambar Saya" widht="200" height="200">
+    </div>
+
+    <p style="color:darkgoldenrod">Stanislaus Nicko Fasio Priyanjaga<br>
+        121140076<br>
+        RB<br>
+        Teknik Informatika<br>
+    </p>
+
+    <p style="color:brown">Media sosial yang sering saya liat :</p>
+    <ul style="list-style-type: circle;"> <!--membuat list menjadi bulat atau lingkaran-->
+    <li><a href="https://instagram.com">Instagram</a></li> <!--berisi URL tujuan tautan-->
+    <li><a href="https://tiktok.com">Tiktok</a></li>
+    <li><a href="https://youtube.com">YouTube</a></li>
+    </ul>
+
+    <h4>Biodata Singkat Saya</h4>
+    <p style="background-color: darkgrey;">Nama lengkap saya Stanislaus Nicko Fasio Priyanjaga, biasa diapnggil Nicko.<br>
+        Saya lahir di Pajaresuk pada tanggal 11 bulan April 2003. Saya merupakan anak pertama dari dua bersaudara,<br>
+        saya memiliki satu orang adik yang berbeda umur 2 tahun dengan saya.<br>
+        Bapak saya merupakan seorang wiraswasta dan ibu saya merupakan seorang guru disebuah sekolah swasta.<br>
+        Alamat rumah tinggal saya di Jln.Lintas Barat Sumatera desa Ganjaran Lampung.<br>
+        Karena dekat dengan jalan lintas Sumatera, area sekitar rumah saya cukup ramai.<br>
+        Rumah saya juga dekat dengan Madrasah Alliyah Negeri (MAN) 1 Pringsewu dan dekat dengan Rumah Sakit Umum Daerah Pringsewu,<br>
+        sehingga memudahkan jika ada anggota keluarga yang sakit.
+    </p>
+
+    <video src="SING-OFF TIKTOK SONGS PART 16 vs Shirina.mp4" width="300" height="300" controls></video> <!--media berupa video-->
+    <audio src="SING-OFF TIKTOK SONGS PART 14 vs  @EltasyaNatasha_ (192 kbps).mp3" controls></audio> <!--media berupa suara-->
+
+    <h4>Contoh tabel :</h4>
+    <table border="2" style="color:darkgreen">
+        <tr> <!--mendefinisikan elemen baris tabel-->
+            <th rowspan="3">Tahun</th>
+            <th colspan="2">Jumlah</th>
+            <th colspan="4">Barang</th>
+        </tr>
+        <tr>
+            <th rowspan="2">Barang</th>
+            <th rowspan="2">Harga</th>
+            <th colspan="2">A</th>
+            <th colspan="2">B</th>
+        </tr>
+        <tr>
+            <th>banyaknya</th>
+            <th>harga</th>
+            <th>banyaknya</th>
+            <th>harga</th>
+        </tr>
+        <tr>
+            <th>1965</th>
+            <th>19</th>
+            <th>315</th>
+            <th>8</th>
+            <th>234</th>
+            <th>10</th>
+            <th>81</th>
+        </tr>
+        <tr>
+            <th>1966</th>
+            <th>22</th>
+            <th>388</th>
+            <th>12</th>
+            <th>307</th>
+            <th>9</th>
+            <th>80</th>
+        </tr>
+        <tr>
+            <th>1967</th>
+            <th>24</th>
+            <th>382</th>
+            <th>11</th>
+            <th>290</th>
+            <th>13</th>
+            <th>92</th>
+        </tr>
+    </table>
+
+    <form action="prak1/" method="post">
+        <p>Jika ada yang perlu dibicarakan,<br>
+            segera kirim nomor atau sosial media<br>
+            yang dapat dihubungi<br>
+        </p>
+        <label for="nomor">nomor :</label>
+        <input type="text" placeholder="masukkan nomor anda" id="nomor"><br>
+        <label for="sosmed">sosial media (ig, tiktok, twitter) : </label>
+        <input type="text" placeholder="sosial media anda" id="sosmed">
+
+        <p>Apakah matkul Pemweb dapet nilai A?</p>
+        <input type="radio" name="nilai_1"> Hooh<br>
+        <input type="radio" name="nilai_1"> Ga<br>
+
+        <p>Apa yang kamu rasakan ketika belajar Pemweb?</p>
+        <input type="checkbox" name="pemweb" id="cc" value="1"> Lumayan<br>
+        <input type="checkbox" name="pemweb" id="cc" value="2"> Agak susah<br>
+        <input type="checkbox" name="pemweb" id="cc" value="3"> Susah banget<br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>

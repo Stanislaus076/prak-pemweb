@@ -1,0 +1,135 @@
+<!--Stanislaus Nicko Fasio Priyanjaga-->
+<!--121140076-->
+<!--RB-->
+
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum Pemweb 2</title>
+    <link rel="stylesheet" href="style.css"> <!--menghubungkan sumber daya eksternal dengan halaman web-->
+</head>
+
+<body>
+    <div class="container">
+        <header class="head"> <!--mendefinisikan bagian atas atau dari sebuah elemen yang berisi judul atau elemen utamanya-->
+            <img src="jjj.jpg" alt="ini gambar" class="pict">
+            <div class="side">
+                <h2>Stanislaus Nicko Fasio Priyanjaga</h2>
+                <h4>121140076</h4>
+                <h4>RB</h4>
+            </div>
+        </header>
+
+        <nav class="navigasi"> <!--berisi menu navigasi atau tautan ke berbagai atau halaman lain dalam situs web-->
+            <li class="pilih">Menu</li>
+            <li class="pilih">Home</li>
+            <li class="pilih">Tentang</li>
+        </nav>
+
+        <section class="me">
+            <h2>Biodata Singkat</h2>
+            <p>Nama lengkap saya Stanislaus Nicko Fasio Priyanjaga, biasa diapnggil Nicko.
+                Saya lahir di Pajaresuk pada tanggal 11 bulan April 2003. Saya merupakan anak pertama dari dua bersaudara,
+                saya memiliki satu orang adik yang berbeda umur 2 tahun dengan saya.
+                Bapak saya merupakan seorang wiraswasta dan ibu saya merupakan seorang guru disebuah sekolah swasta.
+                Alamat rumah tinggal saya di Jln.Lintas Barat Sumatera desa Ganjaran Lampung.
+                Karena dekat dengan jalan lintas Sumatera, area sekitar rumah saya cukup ramai.
+                Rumah saya juga dekat dengan Madrasah Alliyah Negeri (MAN) 1 Pringsewu dan dekat dengan Rumah Sakit Umum Daerah Pringsewu,
+                sehingga memudahkan jika ada anggota keluarga yang sakit.
+            </p>
+
+            <h2>My favorit video and sound</h2>
+            
+            <div>
+                <video src="SING-OFF TIKTOK SONGS PART 16 vs Shirina.mp4" controls></video>
+                <audio src="SING-OFF TIKTOK SONGS PART 14 vs  @EltasyaNatasha_ (192 kbps).mp3" controls></audio>
+            </div>
+        </section>
+
+        <section class="cost">
+            <h2 id="pengeluaran">Biaya ngekost</h2>
+            <table border="2">
+                <tr> <!--mendefinisikan elemen baris tabel-->
+                    <th rowspan="3">Minggu ke-</th>
+                    <th colspan="2">Jumlah</th>
+                    <th colspan="4">Kebutuhan</th>
+                </tr>
+                <tr>
+                    <th rowspan="2">Kebutuhan</th>
+                    <th rowspan="2">Harga</th>
+                    <th colspan="2">Makan</th>
+                    <th colspan="2">Lainnya</th>
+                </tr>
+                <tr>
+                    <th>banyaknya</th>
+                    <th>harga</th>
+                    <th>banyaknya</th>
+                    <th>harga</th>
+                </tr>
+                <tr>
+                    <th>1</th>
+                    <th>11</th>
+                    <th>Rp61.000</th>
+                    <th>9</th>
+                    <th>Rp33.000</th>
+                    <th>2</th>
+                    <th>Rp28.000</th>
+                </tr>
+                <tr>
+                    <th>2</th>
+                    <th>14</th>
+                    <th>Rp81.000</th>
+                    <th>11</th>
+                    <th>Rp36.000</th>
+                    <th>3</th>
+                    <th>Rp47.000</th>
+                </tr>
+                <tr>
+                    <th>3</th>
+                    <th>13</th>
+                    <th>Rp64.000</th>
+                    <th>11</th>
+                    <th>Rp36.000</th>
+                    <th>2</th>
+                    <th>Rp28.000</th>
+                </tr>
+            </table>
+        </section>
+
+        <section class="form">
+            <form action="*" method="post">
+                <h2>Wilayah</h2>
+                <p>
+                    <label for="provinsi">Provinsi :</label>
+                    <select name="provinsi" id="provinsi">
+                        <option value="lampung">Lampung</option> <!--berisi pilihan pada label-->
+                        <option value="jakarta">Jakarta</option>
+                        <option value="makassar">Makassar</option>
+                        <option value="papua">Papua</option>
+                    </select>
+
+                    <p>Apakah matkul Pemweb dapet nilai A?<br>
+                        <input type="radio" name="nilai_1"> Hooh<br>
+                        <input type="radio" name="nilai_1"> Ga<br>
+                    </p>
+                    
+                    <p>Apa yang kamu rasakan ketika belajar Pemweb?<br>
+                        <input type="checkbox" name="pemweb" id="cc" value="1"> Lumayan<br>
+                        <input type="checkbox" name="pemweb" id="cc" value="2"> Agak susah<br>
+                        <input type="checkbox" name="pemweb" id="cc" value="3"> Susah banget<br>
+                    </p>
+                </p>
+
+                <button class="button" type="submit">Submit</button>
+            </form>
+        </section>
+
+        <section>
+            <footer class="footer">Ini Footer</footer>
+        </section>
+    </div>
+</body>
+</html>

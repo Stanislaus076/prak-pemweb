@@ -1,0 +1,35 @@
+<!--Praktikum 5-->
+<!--Stanislaus Nicko Fasio Priyanjaga-->
+<!--121140076-->
+<!--RB-->
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <link rel="stylesheet" type="text/css" href="kalkulator.css">
+</head>
+<body>
+  <div class="calculator">
+    <input type="text" id="display" readonly>
+    <div class="buttons">
+      <button class="operator" onclick="clearDisplay()" onmouseover="buttonMouseOver(this)" onmouseout="buttonMouseOut(this)" onmousedown="buttonMouseDown(this)" onmouseup="buttonMouseUp(this)">C</button>
+      <button onclick="appendToDisplay('7')" onmouseover="buttonMouseOver(this)" onmouseout="buttonMouseOut(this)" onmousedown="buttonMouseDown(this)" onmouseup="buttonMouseUp(this)">7</button>
+      <button onclick="appendToDisplay('8')" onmouseover="buttonMouseOver(this)" onmouseout="buttonMouseOut(this)" onmousedown="buttonMouseDown(this)" onmouseup="buttonMouseUp(this)">8</button>
+      <button onclick="appendToDisplay('9')" onmouseover="buttonMouseOver(this)" onmouseout="buttonMouseOut(this)" onmousedown="buttonMouseDown(this)" onmouseup="buttonMouseUp(this)">9</button>
+      <button class="operator" onclick="appendToDisplay('+')" onmouseover="buttonMouseOver(this)" onmouseout="buttonMouseOut(this)" onmousedown="buttonMouseDown(this)" onmouseup="buttonMouseUp(this)">+</button>
+      <button onclick="appendToDisplay('4')" onmouseover="buttonMouseOver(this)" onmouseout="buttonMouseOut(this)" onmousedown="buttonMouseDown(this)" onmouseup="buttonMouseUp(this)">4</button>
+      <button onclick="appendToDisplay('5')" onmouseover="buttonMouseOver(this)" onmouseout="buttonMouseOut(this)" onmousedown="buttonMouseDown(this)" onmouseup="buttonMouseUp(this)">5</button>
+      <button onclick="appendToDisplay('6')" onmouseover="buttonMouseOver(this)" onmouseout="buttonMouseOut(this)" onmousedown="buttonMouseDown(this)" onmouseup="buttonMouseUp(this)">6</button>
+      <button class="operator" onclick="appendToDisplay('-')" onmouseover="buttonMouseOver(this)" onmouseout="buttonMouseOut(this)" onmousedown="buttonMouseDown(this)" onmouseup="buttonMouseUp(this)">-</button>
+      <button onclick="appendToDisplay('1')" onmouseover="buttonMouseOver(this)" onmouseout="buttonMouseOut(this)" onmousedown="buttonMouseDown(this)" onmouseup="buttonMouseUp(this)">1</button>
+      <button onclick="appendToDisplay('2')" onmouseover="buttonMouseOver(this)" onmouseout="buttonMouseOut(this)" onmousedown="buttonMouseDown(this)" onmouseup="buttonMouseUp(this)">2</button>
+      <button onclick="appendToDisplay('3')" onmouseover="buttonMouseOver(this)" onmouseout="buttonMouseOut(this)" onmousedown="buttonMouseDown(this)" onmouseup="buttonMouseUp(this)">3</button>
+      <button class="operator" onclick="calculate()" onmouseover="buttonMouseOver(this)" onmouseout="buttonMouseOut(this)" onmousedown="buttonMouseDown(this)" onmouseup="buttonMouseUp(this)">=</button>
+      <button onclick="appendToDisplay('0')" onmouseover="buttonMouseOver(this)" onmouseout="buttonMouseOut(this)" onmousedown="buttonMouseDown(this)" onmouseup="buttonMouseUp(this)">0</button>
+      <button onclick="appendToDisplay('.')" onmouseover="buttonMouseOver(this)" onmouseout="buttonMouseOut(this)" onmousedown="buttonMouseDown(this)" onmouseup="buttonMouseUp(this)">.</button>
+    </div>
+  </div>
+
+  <script src="kalkulator.js"></script>
+</body>
+</html>
